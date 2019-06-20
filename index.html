@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+   
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/particlesjs@2.2.3/dist/particles.min.js"></script>
+    
+  
+   
+    <title>Portfolio Webpage</title>
+</head>
+<body>
+
+
+    <!-- NavBar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html" id="Name">Patrick Bassett<p id="underName"> Full Stack Developer</p></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#aboutContainer">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skillsContainer">Skills/Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactContainer">Contact</a>
+                </li>
+              
+              </ul>
+            </div>
+          </nav> 
+
+<!-- header/JumboTron -->
+
+<div class="wrapper">
+ 
+    <div id="particles-js">
+      <div class ="header">
+        <img src="icons\selfie.png" class="mainPic" alt="" width="600px" >
+        <span class="headerText">
+        <h1>Patrick Bassett</h1>
+        <h5>Full Stack Developer</h5>
+        <p><i>Click anywhere below!</i></p>
+       
+      </span>
+      </div>
+    </div>
+<script src='particles.js'></script>
+  
+<script>
+particlesJS.load('particles-js', 'particles-config.json',function(){
+    console.log('particles.json loaded');
+  });
+  </script>
+ 
+
+</div>
+
+<!-- About -->
+<div id ="separator">
+  <h1 >About Myself</h1>
+</div>
+
+<div id="aboutContainer">
+<div class="aboutText">
+    <h3 class="subHeader">Education & Work History</h3>
+   <hr>
+  <p>Hi! My name's Patrick Bassett and I'm 20 years old currently and living in fort wayne Indiana. My education with computer science and software developement began my junior year of highschool when I took two years of the AP computer science classes. During those years we covered the basic concepts of OOP and learned much of the syntax relating to Java. Currently I'm a Junior at Purdue University Fort Wayne studying software development. My time ni college has been great and I've learned topics such as data structure, C and Unix, computer architecture, and more Java. My work history begins with Arby's in highschool where I worked for over two years trying to save up for college. During those two years I also worked two summertime IT interships at Dana coporation, and at the Fort Wayne Internatonal Airport. </p>
+  <h3 class="subHeader">Ambitions & Hobbies</h3>
+  <hr>
+  <p>My current ambition is to become a well rounded full stack developer so that I may enter the workforce as a vital part of any company. I'm well on my way to completing this goal with much of the necessary front and back-end development skills. Some of the thngs I like to do in my free time include, music (violin & clarinet), Dungeons and Dragons, reading (non-fiction & science fiction), painting, and long distance running. </p>
+</div>
+
+
+<div class="aboutPics" >
+
+  <div class="dana">
+  <a href="http://www.dana.com/" >
+    <img src="icons\dana.jpg" alt=""height="100" width="200"  class= "danaPic">
+    </a>
+  </div>
+
+  <div class="airport">
+    <a href="https://fwairport.com/" >
+    <img src="icons\airport.jpg" alt="" height="150" width="175" class="airportPic">
+    </a>
+  </div>
+
+  <div class="eF">
+    <a href="https://elevenfifty.org/">
+      <img src="icons\elevenFifty.png" alt="" height="150" width="150"  class="eFPic">
+      </a>
+    </div>
+
+    <div class="pfw">
+      <a href="https://www.pfw.edu/"  >
+        <img src="icons\pfw.png" alt="" height="150" width="250" class="pfwPic">
+        </a>
+      </div>
+
+</div>
+</div>
+<!-- Skills/Projects -->
+<div id ="separator">
+  <h1 >Skills & Projects</h1>
+</div>
+
+<div id="skillsContainer">
+
+<div class="fluent">
+  <div class="skillsHeader">
+    <h3>Fluent</h3>
+  </div>
+  <br>
+  <img src="icons\java.png" alt="" width="150" height="150"  class="skillsPic">
+  <br>
+  <p>Java is a language I've been working with for over
+     4 years now, and its a language I've come to love
+      immensly. I find great enjoyment working with data structures
+    and algorithms in Java's object orientated realm. </p>
+</div>
+<div class="experinced">
+    <div class="skillsHeader">
+        <h3>Experinced</h3>
+    </div>
+<br>
+    <img src="icons\js.png" alt="" width="150" height="150" class="skillsPic">
+<br>
+
+<img src="icons\html.png" alt="" width="150" height="100"  class="skillsPic">
+<br>
+<img src="icons\css.png" alt=""width="150" height="150"  class="skillsPic">
+</div>
+<div class="foundational">
+    <div class="skillsHeader">
+        <h3>Foundational</h3>
+    </div>
+    <br>
+    <img src="icons\nodejs.png" alt="" width="150" height="125"  class="skillsPic">
+
+    <br>
+    <img src="icons\SQL.png" alt=""  width="150" height="125"  class="skillsPic">
+<br>
+    <img src="icons\C.png" alt="" width="150" height="110"  class="skillsPic">
+    <br>
+    <p>C and C++ are languages I've had brief encounters wth at school and at home
+      when I'm self teaching. I find them both facinating in many aspects. C++ is definetly my next
+      language to learn as many simulation and game developers rely on C++'s effiency and vast library support.
+    </p>
+</div>
+
+
+</div>
+<div class="projectsContainer">
+    <div class="projectHeader">
+        <h3>Projects</h3>
+    </div>
+
+    <table class="projectTable">
+        <tr>
+          <th><a href="https://github.com/Patt578/Ghibli_API" ><img src="icons\GhibliAPI.png" alt="" width="300" height="250"></a></th>
+          <th> <a href="https://github.com/Patt578/staticLayout"><img src="icons\staticLayout.png" alt="" width="300" height="250"></a>  </th> 
+          
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Patt578/webApps"><img src="icons\portfolioPic.png" alt="" width="300" height="225"></a>  </td>
+          <td> <a href="https://codepen.io/patt578/pen/oRVbzX"><img src="icons\cssCreature.png" alt="" width="300" height="225"></a>  </td> 
+         
+        </tr>
+        
+      </table>
+  
+          </div>
+        
+
+
+
+
+<!-- Contact -->
+<div id ="separator">
+    <h1 >Contact</h1>
+  </div>
+
+  <div id="contactContainer">
+
+    <div class="contactForm">
+     
+      <form action="https://formspree.io/bassettptty@gmail.com" method="POST">
+        Name:
+        <input type="text" name="name" class="input">
+        <br>
+        Email:
+        <input type="email" name="_replyto" class="input" id="emailInput">
+        <br>
+        <br>
+        <textarea name="message" placeholder="enter a message here" class="textarea"></textarea>
+        <br>
+        <input type="submit" value="Send" class="submit">
+       </form>
+    </div>
+    
+  </div>
+<!-- footer -->
+
+<footer class="footer">
+
+<div class="footerStuff">
+  <a href="https://github.com/Patt578"><img src="icons\github.png" alt="" height="50" width="50"></a>
+  <a href="https://www.linkedin.com/in/patrick-bassett-66a689189/"><img src="icons\linkedIn.png" alt="" height="50" width="50"></a>
+  <a href="https://docs.google.com/document/d/1ASvi_Ssy3B-0d3_JB428X3Oy11BIaXH-ZG0gJuW19_g/edit"><img src="icons\resume.png" alt="" height="50" width="50"></a>
+  
+  <br>
+  <p class="copyRight"> © 2019 Copyright: Patrick Bassett</p>
+</div>
+
+
+</footer>
+
+    
+</body>
+</html>

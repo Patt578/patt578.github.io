@@ -1,0 +1,70 @@
+#aboutContainer{
+
+    background-color: black;
+    width:100%;
+    height:900px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.aboutText{
+   width:50%;
+    float: left;
+    height: 800px;
+    position: absolute;
+    padding: 2em;
+
+
+}
+
+.aboutPics{
+    width:50%;
+float: right;
+height: 800px;
+display: block;
+
+
+
+
+}
+
+.dana{
+    padding: 2em;
+}
+
+
+.airport{
+    width: 100%;
+    padding: 2em;
+}
+.airportPic{
+    display:block;
+    margin: 0 auto;
+    padding-left: 2em;
+}
+.eF{
+    width: 100%;
+    padding: 2em;
+}
+.pfw{
+    width: 100%;
+    margin-left: 4em;
+
+}
+.pfwPic{
+    display:block;
+    margin: 0 auto;
+
+
+}
+
+
+
+.subHeader{
+    text-shadow: 2px 2px grey;
+}
+hr{
+    background-color: white;
+}
+
